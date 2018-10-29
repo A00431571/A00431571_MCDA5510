@@ -1,0 +1,150 @@
+Oct 17, 2018 1:27:48 AM User_Page main
+CONFIG: Configuration done.
+Hello!!!...
+Enter username
+admin
+Enter Password
+a
+Password Incorrect
+Oct 17, 2018 1:27:51 AM User_Page main
+FINE: Credentials Entered for Login
+Oct 17, 2018 1:27:51 AM User_Page main
+SEVERE: Credentials Mismatch
+Oct 17, 2018 1:27:51 AM User_Page main
+SEVERE: Credentials Mismatch
+Press 1 to Try Again!!!
+1
+Enter username
+admin
+Enter Password
+admin
+Oct 17, 2018 1:27:56 AM User_Page main
+FINE: Credentials Entered for Login
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+1
+Enter the ID
+1
+ID Already Taken!!! Try other!!!!
+13
+Enter the Name of Card Holder
+Sarathchandran
+Enter Card Number
+4321234326789765
+Enter Unit Price
+13
+Enter Quantity
+300
+Enter Expiry Date
+05/2019
+Oct 17, 2018 1:28:51 AM Create_ID create_New
+FINE: Values in Object
+Oct 17, 2018 1:28:51 AM Create_ID create_New
+FINE: Calling DB Query to Insert
+Oct 17, 2018 1:28:51 AM User_Page main
+FINE: Inserted in DB
+Succesfully Inserted
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+2
+Enter ID
+11
+ID Not Present!!! Try other!!!!
+13
+Oct 17, 2018 1:29:01 AM Update_ID update_ex
+FINE: Inserted Object
+Want to update Name On Card?Sarathchandran
+
+n
+Want to update Card Number?4321234326789765
+
+n
+Want to update Unit Price?13.0
+
+n
+Want to update Quantity?300
+
+n
+Want to update Expiry Date?05/2019
+
+y
+07/2020
+Oct 17, 2018 1:29:24 AM Update_ID update_ex
+FINE: Values updated in Transaction Object
+Oct 17, 2018 1:29:24 AM Update_ID update_ex
+FINE: Callign Query to update
+Oct 17, 2018 1:29:24 AM User_Page main
+FINE: Updated in DB
+Succesfully Updated
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+3
+Enter the ID to view
+11
+Oct 17, 2018 1:29:28 AM User_Page main
+FINE: Fetched from DB
+Wed Oct 17 01:29:28 ADT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+3
+Enter the ID to view
+13
+Oct 17, 2018 1:29:34 AM User_Page main
+FINE: Fetched from DB
+Wed Oct 17 01:29:34 ADT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[ID: 13, NameOnCard: Sarathchandran, CardNumber/CardType: 4321234326789765/VISA Card]
+[UnitPrice: 13.00, Quantity: 300, TotalPrice: 3900.00]
+[ExpDate: 07/2020, CreatedBy: Mani Santhamohan, CreatedON: 2018-10-17 01:29:24]
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+4
+Enter ID to delete
+12
+Wed Oct 17 01:29:48 ADT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+ID not Exists
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+4
+Enter ID to delete
+11
+Wed Oct 17 01:29:56 ADT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+ID not Exists
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+4
+Enter ID to delete
+9
+Wed Oct 17 01:30:01 ADT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Oct 17, 2018 1:30:01 AM User_Page main
+FINE: Deleted in DB
+ID Deleted Successfully
+Press 1 to Insert new record!!!
+Press 2 to Update record!!!
+Press 3 to View record!!!
+Press 4 to Deletes new record!!!
+Press 5 to exit transaction!!!
+5
+Total Executed time214610
+Oct 17, 2018 1:31:22 AM User_Page main
+FINE: Total Execution time 214610

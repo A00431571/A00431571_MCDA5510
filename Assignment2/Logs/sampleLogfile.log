@@ -1,0 +1,38 @@
+Oct 17, 2018 1:16:33 AM User_Page main
+CONFIG: Configuration done.
+Oct 17, 2018 1:16:38 AM User_Page main
+FINE: Credentials Entered for Login
+Oct 17, 2018 1:21:21 AM User_Page main
+CONFIG: Configuration done.
+Oct 17, 2018 1:21:25 AM User_Page main
+FINE: Credentials Entered for Login
+Oct 17, 2018 1:27:48 AM User_Page main
+CONFIG: Configuration done.
+Oct 17, 2018 1:27:51 AM User_Page main
+FINE: Credentials Entered for Login
+Oct 17, 2018 1:27:51 AM User_Page main
+SEVERE: Credentials Mismatch
+Oct 17, 2018 1:27:56 AM User_Page main
+FINE: Credentials Entered for Login
+Oct 17, 2018 1:28:51 AM Create_ID create_New
+FINE: Values in Object
+Oct 17, 2018 1:28:51 AM Create_ID create_New
+FINE: Calling DB Query to Insert
+Oct 17, 2018 1:28:51 AM User_Page main
+FINE: Inserted in DB
+Oct 17, 2018 1:29:01 AM Update_ID update_ex
+FINE: Inserted Object
+Oct 17, 2018 1:29:24 AM Update_ID update_ex
+FINE: Values updated in Transaction Object
+Oct 17, 2018 1:29:24 AM Update_ID update_ex
+FINE: Callign Query to update
+Oct 17, 2018 1:29:24 AM User_Page main
+FINE: Updated in DB
+Oct 17, 2018 1:29:28 AM User_Page main
+FINE: Fetched from DB
+Oct 17, 2018 1:29:34 AM User_Page main
+FINE: Fetched from DB
+Oct 17, 2018 1:30:01 AM User_Page main
+FINE: Deleted in DB
+Oct 17, 2018 1:31:22 AM User_Page main
+FINE: Total Execution time 214610
